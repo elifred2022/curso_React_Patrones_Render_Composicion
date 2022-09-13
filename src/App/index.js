@@ -1,7 +1,5 @@
 import React from 'react';
 import { useTodos } from './useTodos';
-//import { TodoSearch } from '../TodoSearch';
-//import { AppUI } from './AppUI';
 import { TodoHeader } from '../TodoHeader';
 import { TodoCounter } from '../TodoCounter';
 import { TodoSearch } from '../TodoSearch';
@@ -14,12 +12,7 @@ import { TodoForm } from '../TodoForm';
 import { CreateTodoButton } from '../CreateTodoButton';
 import { Modal } from '../Modal';
 
-
-
-
-
 function App() {
-
   const {
     error,
     loading,
@@ -28,38 +21,34 @@ function App() {
     deleteTodo,
     openModal,
     setOpenModal,
-    totalTodos, 
+    totalTodos,
     completedTodos,
-    searchValue, 
+    searchValue,
     setSearchValue,
-    addTodo, 
-    
-
+    addTodo,
   } = useTodos();
-
   
   return (
     <React.Fragment>
-
       <TodoHeader>
-        <TodoCounter 
+        <TodoCounter
           totalTodos={totalTodos}
           completedTodos={completedTodos}
         />
-        <TodoSearch 
+        <TodoSearch
           searchValue={searchValue}
           setSearchValue={setSearchValue}
-         />
-
+        />
       </TodoHeader>
-      
 
-      <TodoList>
-        {error && <TodosError />}
-        {loading && <TodosLoading />}
-        {(!loading && !searchedTodos.length) && <EmptyTodos />}
-        
-        {searchedTodos.map(todo => (
+      <TodoList
+        error={error}
+        loading={loading}
+        searchedTodos={searchedTodos}
+        onError={() => <TodosError />}
+        onLoading={() => <TodosLoading />}
+        onEmptyTodos={() => <EmptyTodos />}
+        render={todo => (
           <TodoItem
             key={todo.text}
             text={todo.text}
@@ -67,14 +56,14 @@ function App() {
             onComplete={() => completeTodo(todo.text)}
             onDelete={() => deleteTodo(todo.text)}
           />
-        ))}
-      </TodoList>
+        )}
+      />
 
       {!!openModal && (
         <Modal>
-          <TodoForm 
+          <TodoForm
             addTodo={addTodo}
-            setOpenModal={setOpenModal}            
+            setOpenModal={setOpenModal}
           />
         </Modal>
       )}
@@ -84,60 +73,6 @@ function App() {
       />
     </React.Fragment>
   );
-
-  
-} 
+}
 
 export default App;
-
-/* FUE UNA EXPLICACION MEDIA RARA 
-function App() {
-  const [state, setState] = React.useState('estado compartido');
-
-  return (
-    
-      <React.Fragment>
-        <TodoHeader>
-          <TodoCounter />
-          <TodoSearch />
-        </TodoHeader>
-        
-        <TodoList>
-          <TodoItem state={state} />
-        </TodoList>
-      </React.Fragment>
-    
-    
-  );
-}
-
-function TodoHeader({ children }) {
-  return (
-    <header>
-      { children }
-    </header>
-  );
-}
-
-function TodoList( {children} ) {
-  return (
-    <section className='TodoList-container'>
-      { children }
-    </section>
-  );
-}
-
-function TodoCounter() {
-  const [state] = React.useContext(TodoProvider);
-
-  return <p>TodoCounter</p>;
-}
-
-function TodoSearch() {
-  return <p>TodoSearch</p>;
-}
-
-function TodoItem({ state }) {
-  return <p>TodoItem: {state}</p>;
-}
-*/

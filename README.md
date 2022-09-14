@@ -110,4 +110,7 @@ const [item, setItem] = React.useState(parsedItem); // unos de los hooks de reac
 
 El shortcut para seleccionar todas las palabras iguales sin seleccionar una por una, es: dar click sobre la palabra (localStorageItem) y luego Ctrl+Shift+L
 
+# HOc hight order component
+wrappedcomponent
+
 

@@ -113,4 +113,5 @@ El shortcut para seleccionar todas las palabras iguales sin seleccionar una por 
 # HOc hight order component
 wrappedcomponent
 
+# clase sincronizar la app 
 

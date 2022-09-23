@@ -115,3 +115,11 @@ wrappedcomponent
 
 # clase sincronizar la app 
 
+# clase reto mensaje de recargar yes
+
+# clase 17 maquetacion 
+
+renders props son mas ordenadas
+preferido del profesro customs hooks
+
+# clase 19 cambiar hocs por react hooks

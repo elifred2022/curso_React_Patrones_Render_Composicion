@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Intro_React/static/css/main.a2049c0c.chunk.css",
+    "main.js": "/Intro_React/static/js/main.f4e9fbb4.chunk.js",
+    "main.js.map": "/Intro_React/static/js/main.f4e9fbb4.chunk.js.map",
+    "runtime-main.js": "/Intro_React/static/js/runtime-main.97ec6c71.js",
+    "runtime-main.js.map": "/Intro_React/static/js/runtime-main.97ec6c71.js.map",
+    "static/js/2.67137251.chunk.js": "/Intro_React/static/js/2.67137251.chunk.js",
+    "static/js/2.67137251.chunk.js.map": "/Intro_React/static/js/2.67137251.chunk.js.map",
+    "index.html": "/Intro_React/index.html",
+    "static/css/main.a2049c0c.chunk.css.map": "/Intro_React/static/css/main.a2049c0c.chunk.css.map",
+    "static/js/2.67137251.chunk.js.LICENSE.txt": "/Intro_React/static/js/2.67137251.chunk.js.LICENSE.txt",
+    "static/media/crea.b06737d8.svg": "/Intro_React/static/media/crea.b06737d8.svg",
+    "static/media/equis.08233535.svg": "/Intro_React/static/media/equis.08233535.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97ec6c71.js",
+    "static/js/2.67137251.chunk.js",
+    "static/css/main.a2049c0c.chunk.css",
+    "static/js/main.f4e9fbb4.chunk.js"
+  ]
+}

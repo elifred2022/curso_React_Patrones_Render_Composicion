@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/css/main.a2049c0c.chunk.css",
-    "main.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/main.f4e9fbb4.chunk.js",
-    "main.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/main.f4e9fbb4.chunk.js.map",
-    "runtime-main.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/runtime-main.6aed32c2.js",
-    "runtime-main.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/runtime-main.6aed32c2.js.map",
-    "static/js/2.67137251.chunk.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.67137251.chunk.js",
-    "static/js/2.67137251.chunk.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.67137251.chunk.js.map",
-    "index.html": "/elifred2022/curso_React_Patrones_Render_Composicion.git/index.html",
-    "static/css/main.a2049c0c.chunk.css.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/css/main.a2049c0c.chunk.css.map",
-    "static/js/2.67137251.chunk.js.LICENSE.txt": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.67137251.chunk.js.LICENSE.txt",
-    "static/media/crea.b06737d8.svg": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/media/crea.b06737d8.svg",
-    "static/media/equis.08233535.svg": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/media/equis.08233535.svg"
+    "main.css": "/elifred2022/manejo_profesional_estado_todo.git/static/css/main.a2049c0c.chunk.css",
+    "main.js": "/elifred2022/manejo_profesional_estado_todo.git/static/js/main.f4e9fbb4.chunk.js",
+    "main.js.map": "/elifred2022/manejo_profesional_estado_todo.git/static/js/main.f4e9fbb4.chunk.js.map",
+    "runtime-main.js": "/elifred2022/manejo_profesional_estado_todo.git/static/js/runtime-main.5b3805c0.js",
+    "runtime-main.js.map": "/elifred2022/manejo_profesional_estado_todo.git/static/js/runtime-main.5b3805c0.js.map",
+    "static/js/2.67137251.chunk.js": "/elifred2022/manejo_profesional_estado_todo.git/static/js/2.67137251.chunk.js",
+    "static/js/2.67137251.chunk.js.map": "/elifred2022/manejo_profesional_estado_todo.git/static/js/2.67137251.chunk.js.map",
+    "index.html": "/elifred2022/manejo_profesional_estado_todo.git/index.html",
+    "static/css/main.a2049c0c.chunk.css.map": "/elifred2022/manejo_profesional_estado_todo.git/static/css/main.a2049c0c.chunk.css.map",
+    "static/js/2.67137251.chunk.js.LICENSE.txt": "/elifred2022/manejo_profesional_estado_todo.git/static/js/2.67137251.chunk.js.LICENSE.txt",
+    "static/media/crea.b06737d8.svg": "/elifred2022/manejo_profesional_estado_todo.git/static/media/crea.b06737d8.svg",
+    "static/media/equis.08233535.svg": "/elifred2022/manejo_profesional_estado_todo.git/static/media/equis.08233535.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6aed32c2.js",
+    "static/js/runtime-main.5b3805c0.js",
     "static/js/2.67137251.chunk.js",
     "static/css/main.a2049c0c.chunk.css",
     "static/js/main.f4e9fbb4.chunk.js"

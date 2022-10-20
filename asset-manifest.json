@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/css/main.a2049c0c.chunk.css",
-    "main.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/main.f4e9fbb4.chunk.js",
-    "main.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/main.f4e9fbb4.chunk.js.map",
-    "runtime-main.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/runtime-main.6aed32c2.js",
-    "runtime-main.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/runtime-main.6aed32c2.js.map",
-    "static/js/2.67137251.chunk.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.67137251.chunk.js",
-    "static/js/2.67137251.chunk.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.67137251.chunk.js.map",
+    "main.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/main.978fa4cb.chunk.js",
+    "main.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/main.978fa4cb.chunk.js.map",
+    "runtime-main.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/runtime-main.e759c29c.js",
+    "runtime-main.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/runtime-main.e759c29c.js.map",
+    "static/js/2.b4c54be9.chunk.js": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.b4c54be9.chunk.js",
+    "static/js/2.b4c54be9.chunk.js.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.b4c54be9.chunk.js.map",
     "index.html": "/elifred2022/curso_React_Patrones_Render_Composicion.git/index.html",
     "static/css/main.a2049c0c.chunk.css.map": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/css/main.a2049c0c.chunk.css.map",
-    "static/js/2.67137251.chunk.js.LICENSE.txt": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.67137251.chunk.js.LICENSE.txt",
+    "static/js/2.b4c54be9.chunk.js.LICENSE.txt": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/js/2.b4c54be9.chunk.js.LICENSE.txt",
     "static/media/crea.b06737d8.svg": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/media/crea.b06737d8.svg",
     "static/media/equis.08233535.svg": "/elifred2022/curso_React_Patrones_Render_Composicion.git/static/media/equis.08233535.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6aed32c2.js",
-    "static/js/2.67137251.chunk.js",
+    "static/js/runtime-main.e759c29c.js",
+    "static/js/2.b4c54be9.chunk.js",
     "static/css/main.a2049c0c.chunk.css",
-    "static/js/main.f4e9fbb4.chunk.js"
+    "static/js/main.978fa4cb.chunk.js"
   ]
 }
